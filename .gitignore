@@ -1,22 +1,25 @@
-*~
-*.bak
-bin/
-bin/**
-/CVS/*
-*/CVS/*
-.cvsignore
-*/.cvsignore
-.DS_Store*
-ehthumbs.db
-Icon?
-*.swp
+```
+# Eclipse IDE files
+.project
+.prefs
+.settings/
+.forceQualifierUpdate
+
+# Build artifacts
+build.properties
+META-INF/
+MANIFEST.MF
+
+# Product and feature files
+*.product
+*.inf
+feature.xml
+plugin.xml
+
+# Maven/SWTBot related
+pom.xml
+
+# OS generated files
+.DS_Store
 Thumbs.db
-*.tmp
-target/
-/archive
-email.txt
-workspace/
-build.log
-.tycho-consumer-pom.xml
-/.settings/
-sanity-check/
+```
